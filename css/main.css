@@ -1,0 +1,52 @@
+/* ---------------------- 1. Base ---------------------- */
+/* --------------------- 1 Base --------------------- */
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,700,900");
+a { color: #171a21; text-decoration: none; }
+
+img { max-width: 100%; }
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Raleway', sans-serif; }
+
+.container { max-width: 1200px; }
+
+/* --------------------- 2 Fonts --------------------- */
+/* ------------------- 3 Typography ------------------ */
+/* --------------------- 2. Layout --------------------- */
+/* --------------------- 1 Header --------------------- */
+/* --------------------- 2 Footer --------------------- */
+/* ------------------- 3. components ------------------- */
+/* --------------------- 1 button --------------------- */
+/* --------------------- 4. pages ---------------------- */
+/* -----------------  1. Home page ---------------- */
+.mixitup-area { margin-top: 20px; }
+
+.mixitup-area .control-item { display: flex; justify-content: center; align-items: center; background-color: #E1E5E6; }
+
+.mixitup-area ul { margin: 0px; padding: 0px; }
+
+.mixitup-area ul li { list-style-type: none; display: inline-block; cursor: pointer; padding: 10px; }
+
+@media all and (max-width: 575px) { .mixitup-area ul li { transition: .5s; padding: 5px; } }
+
+.mixitup-area ul li.active { color: #F23A0A; }
+
+.mixitup-area ul li:hover { color: #F23A0A; }
+
+.mixitup-area .mixitup-items { padding-top: 30px; }
+
+.mixitup-area .mixitup-items .card { position: relative; }
+
+.mixitup-area .mixitup-items .heart-icon { position: absolute; top: 25px; color: red; font-size: 25px; left: 320px; }
+
+.mixitup-area .mixitup-items .item { margin-bottom: 40px; }
+
+.mixitup-area .mixitup-items .cart-add { position: absolute; top: 390px; left: 200px; }
+
+@media all and (max-width: 575px) { .mixitup-area .mixitup-items .cart-add { transition: .5s; top: 375px; left: 190px; } }
+
+.mixitup-area .mixitup-items .cart-add a { background-color: #4FC308; padding: 10px 15px; border-radius: 23px; color: #fff; }
+
+.mixitup-area .mixitup-items .cart-add a i { padding-left: 8px; color: #fff; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,73 @@
+.mixitup-area{
+  margin-top: 20px;
+  .control-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E1E5E6;
+  }
+  
+  ul{
+    margin: 0px;
+    padding: 0px;
+    li{
+      list-style-type: none;
+      display: inline-block;
+      cursor: pointer;
+      padding: 10px;
+      @include media('mobile-md'){
+        padding: 5px;
+      }
+      
+      &.active{
+        color: #F23A0A;
+      }
+      &:hover{
+        color: #F23A0A;
+      }
+
+    }
+   
+    
+  }
+  .mixitup-items{
+    padding-top: 30px;
+    .card{
+      position: relative;
+    }
+    .heart-icon{
+      position: absolute;
+      top: 25px;
+      color: red;
+      font-size: 25px;
+      left: 320px;
+    }
+    .item{
+      margin-bottom: 40px;
+    }
+    .cart-add{
+      position: absolute;
+      top: 390px;
+      left: 200px;
+      @include media('mobile-md'){
+        top: 375px;
+        left: 190px;
+      }
+      
+      a{
+        background-color: #4FC308;
+        padding: 10px 15px;
+        border-radius: 23px;
+        color: #fff;
+
+        i{
+          padding-left: 8px;
+          color: #fff;
+        
+        }
+      }
+
+    }
+  }
+
+}
