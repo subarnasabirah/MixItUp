@@ -25,9 +25,11 @@ img { max-width: 100%; }
 
 .mixitup-area ul { margin: 0px; padding: 0px; }
 
-.mixitup-area ul li { list-style-type: none; display: inline-block; cursor: pointer; padding: 10px; }
+.mixitup-area ul li { list-style-type: none; display: inline-block; cursor: pointer; padding: 10px 10px; font-size: 18px; }
 
-@media all and (max-width: 575px) { .mixitup-area ul li { transition: .5s; padding: 5px; } }
+@media all and (max-width: 575px) { .mixitup-area ul li { transition: .5s; padding: 10px 2px; font-size: 14px; } }
+
+@media all and (max-width: 460px) { .mixitup-area ul li { transition: .5s; display: block; align-items: center; padding: 5px 5px; } }
 
 .mixitup-area ul li.active { color: #F23A0A; }
 
@@ -35,18 +37,34 @@ img { max-width: 100%; }
 
 .mixitup-area .mixitup-items { padding-top: 30px; }
 
-.mixitup-area .mixitup-items .card { position: relative; }
-
-.mixitup-area .mixitup-items .heart-icon { position: absolute; top: 25px; color: red; font-size: 25px; left: 320px; }
-
 .mixitup-area .mixitup-items .item { margin-bottom: 40px; }
 
-.mixitup-area .mixitup-items .cart-add { position: absolute; top: 390px; left: 200px; }
+.mixitup-area .mixitup-items .item .card { position: relative; }
 
-@media all and (max-width: 575px) { .mixitup-area .mixitup-items .cart-add { transition: .5s; top: 375px; left: 190px; } }
+.mixitup-area .mixitup-items .item .card .heart-icon { position: absolute; top: 5%; color: red; font-size: 25px; left: 87%; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s; }
 
-.mixitup-area .mixitup-items .cart-add a { background-color: #4FC308; padding: 10px 15px; border-radius: 23px; color: #fff; }
+@media (min-width: 990px) and (max-width: 1199px) { .mixitup-area .mixitup-items .item .card .heart-icon { top: 5%; left: 86%; } }
 
-.mixitup-area .mixitup-items .cart-add a i { padding-left: 8px; color: #fff; }
+@media (min-width: 767px) and (max-width: 991px) { .mixitup-area .mixitup-items .item .card .heart-icon { top: 5%; left: 85%; } }
+
+@media (min-width: 575px) and (max-width: 768px) { .mixitup-area .mixitup-items .item .card .heart-icon { top: 5%; left: 93%; } }
+
+@media (min-width: 320px) and (max-width: 574px) { .mixitup-area .mixitup-items .item .card .heart-icon { top: 5%; left: 90%; } }
+
+.mixitup-area .mixitup-items .item .cart-add { position: absolute; top: 88%; left: 50%; }
+
+.mixitup-area .mixitup-items .item .cart-add a { text-decoration: none; }
+
+@media (min-width: 990px) and (max-width: 1199px) { .mixitup-area .mixitup-items .item .cart-add { top: 87%; left: 48%; } }
+
+@media (min-width: 767px) and (max-width: 991px) { .mixitup-area .mixitup-items .item .cart-add { top: 87%; left: 42%; } }
+
+@media (min-width: 575px) and (max-width: 768px) { .mixitup-area .mixitup-items .item .cart-add { top: 90%; left: 72%; } }
+
+@media (min-width: 320px) and (max-width: 574px) { .mixitup-area .mixitup-items .item .cart-add { top: 88%; left: 55%; } }
+
+.mixitup-area .mixitup-items .item .cart-add a { background-color: #4FC308; padding: 10px 15px; border-radius: 23px; color: #fff; }
+
+.mixitup-area .mixitup-items .item .cart-add a i { padding-left: 8px; color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
