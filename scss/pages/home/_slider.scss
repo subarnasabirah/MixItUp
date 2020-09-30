@@ -51,17 +51,17 @@
           font-size: 25px;
           left: 87%;
           @include transition(.5s);
-          @media (min-width: 990px) and (max-width: 1199px) {
+          @media (min-width: 992px) and (max-width: 1199px) {
             top: 5%;
             left: 86%;
           }
-          @media (min-width: 767px) and (max-width: 991px) {
+          @media (min-width: 768px) and (max-width: 991px) {
             top: 5%;
             left: 85%;
           }
-          @media (min-width: 575px) and (max-width: 768px) {
+          @media (min-width: 575px) and (max-width: 767px) {
             top: 5%;
-            left: 93%;
+            left: 85%;
           }
           @media (min-width: 320px) and (max-width: 574px) {
             top: 5%;
@@ -78,16 +78,16 @@
         a{
           text-decoration: none;
         }
-        @media (min-width: 990px) and (max-width: 1199px) {
+        @media (min-width: 992px) and (max-width: 1199px) {
           top: 87%;
           left: 48%;
         }
 
-        @media (min-width: 767px) and (max-width: 991px) {
-          top: 87%;
-          left: 42%;
+        @media (min-width: 768px) and (max-width: 991px) {
+          top: 85%;
+          left: 35%;
         }
-        @media (min-width: 575px) and (max-width: 768px) {
+        @media (min-width: 575px) and (max-width: 767px) {
           top: 90%;
           left: 72%;
         }

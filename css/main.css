@@ -43,11 +43,11 @@ img { max-width: 100%; }
 
 .mixitup-area .mixitup-items .item .card .heart-icon { position: absolute; top: 5%; color: red; font-size: 25px; left: 87%; -webkit-transition: 0.5s; -o-transition: 0.5s; transition: 0.5s; }
 
-@media (min-width: 990px) and (max-width: 1199px) { .mixitup-area .mixitup-items .item .card .heart-icon { top: 5%; left: 86%; } }
+@media (min-width: 992px) and (max-width: 1199px) { .mixitup-area .mixitup-items .item .card .heart-icon { top: 5%; left: 86%; } }
 
-@media (min-width: 767px) and (max-width: 991px) { .mixitup-area .mixitup-items .item .card .heart-icon { top: 5%; left: 85%; } }
+@media (min-width: 768px) and (max-width: 991px) { .mixitup-area .mixitup-items .item .card .heart-icon { top: 5%; left: 85%; } }
 
-@media (min-width: 575px) and (max-width: 768px) { .mixitup-area .mixitup-items .item .card .heart-icon { top: 5%; left: 93%; } }
+@media (min-width: 575px) and (max-width: 767px) { .mixitup-area .mixitup-items .item .card .heart-icon { top: 5%; left: 85%; } }
 
 @media (min-width: 320px) and (max-width: 574px) { .mixitup-area .mixitup-items .item .card .heart-icon { top: 5%; left: 90%; } }
 
@@ -55,11 +55,11 @@ img { max-width: 100%; }
 
 .mixitup-area .mixitup-items .item .cart-add a { text-decoration: none; }
 
-@media (min-width: 990px) and (max-width: 1199px) { .mixitup-area .mixitup-items .item .cart-add { top: 87%; left: 48%; } }
+@media (min-width: 992px) and (max-width: 1199px) { .mixitup-area .mixitup-items .item .cart-add { top: 87%; left: 48%; } }
 
-@media (min-width: 767px) and (max-width: 991px) { .mixitup-area .mixitup-items .item .cart-add { top: 87%; left: 42%; } }
+@media (min-width: 768px) and (max-width: 991px) { .mixitup-area .mixitup-items .item .cart-add { top: 85%; left: 35%; } }
 
-@media (min-width: 575px) and (max-width: 768px) { .mixitup-area .mixitup-items .item .cart-add { top: 90%; left: 72%; } }
+@media (min-width: 575px) and (max-width: 767px) { .mixitup-area .mixitup-items .item .cart-add { top: 90%; left: 72%; } }
 
 @media (min-width: 320px) and (max-width: 574px) { .mixitup-area .mixitup-items .item .cart-add { top: 88%; left: 55%; } }
 
